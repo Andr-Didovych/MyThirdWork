@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../img/heart.png" type="image/x-icon" />
+    <script src="../js/gifts.js"></script>
+    <title>Gifts</title>
+    <link rel="stylesheet" href="../css/styleAll.css" />
+  </head>
+  <body onload="loadGifts()">
+    <h1>Present Store</h1>
+    <div id="header" class="header"></div>
+    <div class="button-switch">
+      <input type="checkbox" id="hide_div" onchange="{ redrawTheme(); }" />
+    </div>
+    <div class="filters">
+      <div>
+        <input type="text" id="min_price" class="input__filters" min="0" max="1000" />
+        <input type="text" id="max_price" class="input__filters" min="0" max="1000" />
+        <button class="button__filters" onclick="filterGiftsByPrice()">Price Filter</button>
+      </div>
+      <select class="button__filters" id="categories_selector" onchange="filterByCategory()">
+        <option value="all">Category</option>
+        <option value="new_year">New Year</option>
+        <option value="birthday">Birthday</option>
+        <option value="valentines_day">Valentine's Day</option>
+      </select>
+    </div>
+    <div class="container" id="gifts_container"></div>
+  </body>
+</html>

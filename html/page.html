@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../js/gifts.js"></script>
+    <link rel="stylesheet" href="../css/styleAll.css">
+    <link rel="shortcut icon" href="../img/heart.png" type="image/x-icon" />
+    <title>PageGift</title>
+</head>
+<!-- onload="get_url_and_render();" -->
+<body onload="get_url_and_render();">
+    <a href="./gifts.html">Back to gifts</a>
+    <div class="container_page">
+        <div id="gallery1" class="gallery"></div>
+    <div class="comments">
+        <div class="comments__div">
+            Enter your name: <br>
+            <input type="text" name="user_name" id="usr_name" class="input__filters"><br>
+            Leave a review about our product: <br>
+            <textarea id="comment" cols="30" rows="10" class="input__filters"></textarea><br>
+            <button onclick="addCommentMainPage()" class="button__filters">Publish</button>
+        </div>
+        <div class="comment" id="comments"></div>
+    </div>
+    </div>
+</body>
+</html>

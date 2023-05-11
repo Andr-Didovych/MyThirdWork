@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Earbuds",
+    "price": 89.99,
+    "url": "../img/Wireless Earbuds.jpg",
+    "category": "new_year",
+    "description": "Enjoy music without the hassle of tangled wires with these wireless earbuds.",
+    "likes": 25
+  },
+  {
+    "id": 2,
+    "name": "Smartwatch",
+    "price": 149.99,
+    "url": "../img/Smartwatch.jpg",
+    "category": "birthday",
+    "description": "Stay connected and track your fitness with this versatile and stylish smartwatch.",
+    "likes": 5
+  },
+  {
+    "id": 3,
+    "name": "Portable Bluetooth Speaker",
+    "price": 59.99,
+    "url": "../img/Portable Bluetooth Speaker.jpg",
+    "category": "valentines_day",
+    "description": "Take the party with you wherever you go with this compact and powerful Bluetooth speaker.",
+    "likes": 15
+  },
+  {
+    "id": 4,
+    "name": "Instant Pot",
+    "price": 99.99,
+    "url": "../img/Instant Pot.jpg",
+    "category": "new_year",
+    "description": "Make cooking quick and easy with this all-in-one Instant Pot.",
+    "likes": 35
+  },
+  {
+    "id": 5,
+    "name": "Fitness Tracker",
+    "price": 79.99,
+    "url": "../img/Fitness Tracker.jpg",
+    "category": "birthday",
+    "description": "Track your fitness and reach your goals with this advanced fitness tracker.",
+    "likes": 30
+  },
+  {
+    "id": 6,
+    "name": "E-Reader",
+    "price": 129.99,
+    "url": "../img/E-Reader.jpg",
+    "category": "valentines_day",
+    "description": "Enjoy your favorite books and magazines on-the-go with this sleek and lightweight e-reader.",
+    "likes": 35
+  },
+  {
+    "id": 7,
+    "name": "Air Fryer",
+    "price": 79.99,
+    "url": "../img/Air Fryer.jpg",
+    "category": "new_year",
+    "description": "Fry your favorite foods with little to no oil and enjoy healthier meals with this versatile air fryer.",
+    "likes": 40
+  },
+  {
+    "id": 8,
+    "name": "Smart Speaker",
+    "price": 119.99,
+    "url": "../img/Smart Speaker.jpg",
+    "category": "birthday",
+    "description": "Control your smart home and enjoy high-quality sound with this advanced smart speaker.",
+    "likes": 32
+  },
+  {
+    "id": 9,
+    "name": "Robot Vacuum",
+    "price": 299.99,
+    "url": "../img/Robot Vacuum.jpg",
+    "category": "valentines_day",
+    "description": "Clean your home effortlessly with this advanced robot vacuum that can be controlled with your smartphone.",
+    "likes": 45
+  },
+  {
+    "id": 10,
+    "name": "Wireless Charger",
+    "price": 39.99,
+    "url": "../img/Wireless Charger.jpg",
+    "category": "new_year",
+    "description": "Charge your phone wirelessly and quickly with this sleek and compact wireless charger",
+    "likes": 55
+  }
+]
